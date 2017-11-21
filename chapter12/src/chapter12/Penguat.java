@@ -7,6 +7,7 @@ public class Penguat {
     public Penguat(int dariinduk){
         turunandariinduk = dariinduk;
     }
+    
     @Override
     public String toString(){
         return penguatDisini + " " + turunankedaun + " " + turunandariinduk;
